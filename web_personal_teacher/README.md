@@ -7,4 +7,5 @@ To make the deploy on Vercel
   verify the browser location
     in this case
       dist/web_personal_teacher/browser
-      
+    paste it at the dist during the deploy
+
