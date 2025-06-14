@@ -3,10 +3,12 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { QuestionCreatorComponent } from './componentes/question-creator/question-creator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QuestionCreatorComponent
   ],
   imports: [
     BrowserModule,
