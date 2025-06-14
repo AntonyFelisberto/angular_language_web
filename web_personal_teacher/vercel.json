@@ -1,6 +1,0 @@
-{
-  "outputDirectory": "dist/web_personal_teacher",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
