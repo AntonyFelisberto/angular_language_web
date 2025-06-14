@@ -1,10 +1,17 @@
 {
-  "buildCommand": "ng build",
-  "outputDirectory": "dist/web_personal_teacher",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["dist/**"]
+      }
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/dist/web_personal_teacher/index.html"
     }
   ]
 }
